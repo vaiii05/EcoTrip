@@ -1,0 +1,56 @@
+.newsletter{
+    background:orange ;
+    padding:0 ;
+    margin-top:3rem;
+}
+.newsletter__img img {
+    width:100%;
+}
+
+.newsletter__content{
+    padding: 50px 0;
+}
+
+.newsletter__content h2{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 1000;
+    font-style: italic;
+}
+
+.newsletter__input{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding : 0.5rem;
+    margin-bottom: 2rem;
+    border-radius: 15px;
+}
+
+.newsletter__input input{
+    border:none;
+    font-size:1rem;
+    color: var(--heading-color);
+}
+
+.newsletter__input input :focus{
+    outline:none;
+}
+
+.btn.newsletter__btn {
+    padding: .5rem 1.5rem !important;
+    background: var(--secondary-color) !important;
+    color:rgb(57, 53, 53) !important ;
+    font-size: 1.5rem !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 50px;
+    font-style: bold;
+}
+
+.newsletter__content p{
+    color:var(--heading-color);
+    font-style: 1.8rem;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

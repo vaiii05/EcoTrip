@@ -1,0 +1,143 @@
+/* General styles for the tour details section */
+.tour-details-section {
+  background: linear-gradient(135deg, #f9f9f9, #e8f0fe);
+  padding: 60px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.tour-details-row {
+  justify-content: center;
+}
+
+.tour-details-col {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  padding: 40px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tour-details-col:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.tour__content {
+  text-align: center;
+}
+
+.tour-image {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 16px;
+  transition: transform 0.4s ease;
+}
+
+.tour-image:hover {
+  transform: scale(1.03);
+}
+
+.tour-title {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-top: 25px;
+  font-weight: 700;
+}
+
+.tour__rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 1.2rem;
+  color: #ffa534;
+}
+
+.tour-description h5 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 25px;
+  color: #333;
+}
+
+.tour-description p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-top: 12px;
+  text-align: justify;
+}
+
+.tour-price {
+  margin-top: 35px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #e74c3c;
+}
+
+/* Optional Book Now button */
+.book-now-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  margin-top: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.book-now-btn:hover {
+  background-color: #2980b9;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .tour-title {
+    font-size: 1.8rem;
+  }
+
+  .tour-description h5 {
+    font-size: 1.2rem;
+  }
+
+  .tour-description p {
+    font-size: 1rem;
+  }
+
+  .tour-price {
+    font-size: 1.3rem;
+  }
+
+  .book-now-btn {
+    padding: 10px 25px;
+    font-size: 1rem;
+  }
+}
+.nearby-attractions {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f0f8ff;
+  border-radius: 10px;
+}
+
+.nearby-attractions h4 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.nearby-attractions ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.nearby-attractions li {
+  font-size: 1.1rem;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
